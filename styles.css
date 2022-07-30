@@ -59,6 +59,7 @@ html {
 
 .card {
   width: 80vw;
+  border-radius: 10px;
 }
 
 .growHover {
