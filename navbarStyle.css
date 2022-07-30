@@ -1,0 +1,95 @@
+/* laranja #F26506 */
+/* laranja dark #DF5E07 */
+/* amarelo #FFC316 */
+/* background #E9E9E9 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.navBar {
+  background-color: #f26506;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 35px;
+}
+
+.nav-item i {
+  margin-right: 4px;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 400;
+}
+
+.nav-link:hover,
+.nav-item.active {
+  background-color: #df5e07;
+  color: white;
+}
+
+.barra {
+  width: 1px;
+  background-color: white;
+}
+
+.navShowBtn {
+  color: white;
+}
+
+.content {
+  width: 100vw;
+  background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 80vw;
+  border-radius: 10px;
+}
+
+.growHover {
+  font-size: 0.9em;
+  transition: all 0.5s;
+}
+.growHover:hover {
+  font-size: 1em;
+}
+
+.btn-primary {
+  background-color: #f26506;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-primary i {
+  padding-right: 3px;
+}
+
+.navbar-toggler{
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  margin-right:20px;
+}
+
+@media (max-width: 991px)
+{
+  .nav-link
+   {
+      font-size: 1em;
+      width: 300px;
+      padding: 5px 10px;
+   }
+   .nav-item{
+      margin: 5px 10px;
+   }
+}
