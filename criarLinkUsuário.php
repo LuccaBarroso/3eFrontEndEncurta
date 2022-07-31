@@ -27,6 +27,14 @@
         <label for="link">Insira o Link:</label>
         <input type="text" class="textInput my-2" name="link" placeholder="https://site.3esolucoes.com.br/" />
         
+        <label for="link">Selecione um Projeto</label>
+        <select class="textInput form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+          <option selected>Abrir Menu</option>
+          <option value="1">Projeto A</option>
+          <option value="2">Projeto B</option>
+          <option value="3">Projeto C</option>
+        </select>
+        
         <div class="d-flex justify-content-center">
           <button type="submit" class="btn-primary px-4 mt-5 mb-2 growHover">Encurtar</button>
         </div>

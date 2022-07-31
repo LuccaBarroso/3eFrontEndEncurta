@@ -35,30 +35,6 @@
         <p class="text-center mb-4">Esse link vai redirecionar para <b>https://www.exemplo.com</b>.</p>
       </div>
     </div>
-
-
-
-    <!-- <table class="table mt-4">
-      <thead class="p-2">
-        <tr>
-          <th>Nome</th>
-          <th>Projeto</th>
-          <th>Criador</th>
-          <th>Link Encurtado</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Link Exemplo</td>
-          <td>Ecoleta</td>
-          <td>Jorge</td>
-          <td>https://3e.com.br/HASHSH/user 
-            <a href="#"><i class="bi bi-eye-fill"></i></a>
-            <a href="#"><i class="bi bi-clipboard-check-fill"></i></a>
-          </td>
-        </tr>
-      </tbody>
-    </table> -->
   </div>
 </div>
 <?php

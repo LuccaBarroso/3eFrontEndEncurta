@@ -13,7 +13,7 @@
     </div>
     <div class="breadCrumb1 breadCrumb d-inline">
         <img src="/imgs/breadCrumb2.svg" class="img-responsive" style="margin-left: -10px;">
-        <a href="#" class="overlay-text centeredText">Início</a>
+        <a href="#" class="overlay-text centeredText">Login</a>
     </div>
   </div>
 
@@ -21,16 +21,19 @@
   <div class="card shadow p-3 m-1 pt-4 bg-body rounded-lg border-0 d-inline">
     
     <div class="d-flex flex-column">
-      <h4 class="text-center w-100">Criar Novo Link</h4>
+      <h4 class="text-center w-100">Fazer Login</h4>
        <form class="m-auto">
-
-        <label for="link">Insira o Link:</label>
-        <input type="text" class="textInput my-2" name="link" placeholder="https://site.3esolucoes.com.br/" />
         
-        <div class="d-flex justify-content-center">
-          <button type="submit" class="btn-primary px-4 mt-5 mb-2 growHover">Encurtar</button>
-        </div>
+        <label for="password">Nome:</label>
+        <input type="text" class="textInput my-2" name="nome" value="VALOR" />
 
+        <label for="email">Email:</label>
+        <input type="email" class="textInput my-2" name="email" value="VALOR" />
+        
+        <div class="d-flex justify-content-center flex-column align-items-center mt-5">
+          <a href="#" class="simpleLink">Esqueci minha senha.</a>
+          <button type="submit" class="btn-primary px-5 mb-2 growHover">Logar</button>
+        </div>
       </form>
     </div>
   </div>
@@ -38,7 +41,3 @@
 <?php
   include("bottom.php");
 ?>
-
-    
-
-
