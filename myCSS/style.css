@@ -46,6 +46,35 @@ html, .container {
   flex-direction: row;
   padding: 7px 10px;
 }
+.btn-secondary {
+  background-color: #FFC316;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 10px;
+}
+.btn-primary-lighter {
+  background-color: #FFA96F;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 10px;
+  margin-right: 10px;
+}
+
+a.btn-primary-lighter:hover {
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #E9AD00;
+}
 
 .btn-delete {
   background-color: #F23006;
@@ -203,8 +232,9 @@ input::placeholder, input::-webkit-input-placeholder  {
   box-shadow: none;
 }
 
-.simpleLink{
+.simpleLink , .simpleLink:visited{
   color: black;
+  font-size: 13px;
 }
 .simpleLink:hover{
   color: #f26506;
