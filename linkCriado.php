@@ -29,7 +29,7 @@
 
       <div class="m-auto contentHolder">
         <label for="link">Insira o Link:</label>
-        <div class="textInput" style="width: 100%;">
+        <div class="textInput mb-0" style="width: 100%;">
           <p class="mr-auto d-inline">www.3e.com/HASHSH/USER</p>
           <button class="btn-secondary-small d-inline float-end"><i class="fas fa-copy"></i></button>
         </div>
