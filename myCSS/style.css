@@ -33,7 +33,7 @@ html, .container {
  
 .card {
   max-width: 95%;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow-x: auto;
 }
 
@@ -162,7 +162,7 @@ table {
 table th {
   color: white;
   background-color: #f26506 !important;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: auto;
 }
 table td{
@@ -225,4 +225,31 @@ input::placeholder, input::-webkit-input-placeholder  {
 .pagination a:hover{
   padding: 0;
   color: #E9AD00;
+}
+
+.message{
+  max-width: 95%;
+  padding: 10px;
+  color: white;
+  background-color: #ffc316; 
+  font-size: 12px;
+  margin: 15px 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+.message i{
+  padding-right: 5px;
+  font-size: 22px;
+
+}
+.message button{
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+}
+.message p{
+  font-size: 14px;
+  margin-right: auto;
 }
