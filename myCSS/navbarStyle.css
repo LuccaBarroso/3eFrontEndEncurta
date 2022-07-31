@@ -47,19 +47,6 @@
   font-size: 1em;
 }
 
-.btn-primary {
-  background-color: #f26506;
-  border: none;
-  border-radius: 10px;
-  color: white;
-  display: flex;
-  flex-direction: row;
-}
-
-.btn-primary i {
-  padding-right: 3px;
-}
-
 .navbar-toggler{
   border: none;
   color: white;
