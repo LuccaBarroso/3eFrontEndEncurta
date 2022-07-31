@@ -25,7 +25,7 @@
   <div class="card shadow p-3 m-1 pt-4 bg-body rounded-lg border-0 d-inline">
     
     <div class="d-flex flex-column">
-      <h4 class="text-center w-100">Fazer Login</h4>
+      <h4 class="text-center w-100">Editar Senha</h4>
        <form class="m-auto">
         
         <label for="password">Senha Antiga:</label>
@@ -33,7 +33,7 @@
         
         <label for="password">Nova Senha:</label>
         <input type="password" class="textInput my-2" name="newPass" value="VALOR" />
-        
+
         <label for="password">Confirmar Nova Senha:</label>
         <input type="password" class="textInput my-2" name="repeatNewPass" value="VALOR" />
 
