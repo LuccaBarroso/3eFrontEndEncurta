@@ -133,7 +133,7 @@ input::placeholder, input::-webkit-input-placeholder  {
 
 .textInput {
   width: 100%;
-  margin: 5px;
+  margin: 5px 5px 5px 0;
   padding: 5px 10px;
   background-color: rgba(255, 195, 22, 0.38);
   border: none;
@@ -142,3 +142,9 @@ input::placeholder, input::-webkit-input-placeholder  {
   color: black;
 }
 
+.simpleLink{
+  color: black;
+}
+.simpleLink:hover{
+  color: #f26506;
+}
