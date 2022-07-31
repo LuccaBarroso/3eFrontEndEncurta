@@ -36,6 +36,11 @@ html, .container {
   color: white;
   display: flex;
   flex-direction: row;
+  padding: 7px 10px;
+}
+
+.btn-primary:hover {
+  background-color: #df5e07;
 }
 
 .btn-primary i {
@@ -85,3 +90,25 @@ table td a {
   border-radius: 3px;
   margin: 3px;
 }
+
+form {
+  min-width: 70%;
+}
+
+.textInput {
+  width: 100%;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #FFC316;
+  opacity: 0.38;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+input::placeholder  {
+  color: #151515 ;
+  opacity: 1;
+}
+

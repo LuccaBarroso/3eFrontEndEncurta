@@ -3,7 +3,7 @@
   include("navBar.php");
 ?>
 
-<div class="container-fluid  content">
+<div class="container-fluid content">
 
   <!-- Farelo de Pão -->
   <div class="breadCrumbHolder my-5">
@@ -20,15 +20,23 @@
   <!-- Conteúdo -->
   <div class="card shadow p-3 m-1 bg-body rounded-lg border-0 d-inline">
     
-    <div class="d-flex">
-      <h4 class="text-center d-inline w-100">Nossos Links </h4>
-      <button class="btn-primary growHover p-2"><i class="bi bi-sort-down  pr-2"></i
-        >Filtrar</a
-      ></button>
+    <div class="d-flex flex-column">
+      <h4 class="text-center w-100">Nossos Links </h4>
+       <form class="m-auto">
+
+        <label for="link">Insira o Link:</label>
+        <input type="text" class="textInput my-2" name="link" placeholder="https://site.3esolucoes.com.br/" />
+        
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn-primary px-4 mt-5 mb-2 growHover">Encurtar</button>
+        </div>
+
+      </form>
     </div>
 
-    
-    <table class="table mt-4">
+
+
+    <!-- <table class="table mt-4">
       <thead class="p-2">
         <tr>
           <th>Nome</th>
@@ -48,7 +56,7 @@
           </td>
         </tr>
       </tbody>
-    </table>
+    </table> -->
   </div>
 </div>
 <?php
