@@ -30,7 +30,11 @@
   <div class="card shadow p-3 m-1 pt-4 bg-body rounded-lg border-0 d-inline">
     
     <div class="d-flex flex-column">
-      <h4 class="text-center w-100">Seus Links </h4>
+      <h4 class="text-center w-100">Seus Links
+      <div class="float-end">
+            <button class="btn-primary d-inline h6"><i class="fas fa-link"></i>Novo Link</button>
+        </div>
+      </h4>
        
       <table class="table mt-4">
         <thead class="p-2">
