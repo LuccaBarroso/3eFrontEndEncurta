@@ -244,6 +244,9 @@ input::-webkit-input-placeholder {
   outline: none !important;
   box-shadow: none;
 }
+.bigTextInput {
+  min-height: 10rem;
+}
 
 .simpleLink,
 .simpleLink:visited {

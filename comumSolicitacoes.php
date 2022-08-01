@@ -13,7 +13,7 @@
     </div>
     <div class="breadCrumb1 breadCrumb d-inline">
         <img src="/imgs/breadCrumb3.svg" class="img-responsive" style="margin-left: -10px;">
-        <a href="#" class="overlay-text centeredText">Editar Link</a>
+        <a href="#" class="overlay-text centeredText">Solicitações</a>
     </div>
   </div>
 
