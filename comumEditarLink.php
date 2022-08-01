@@ -9,7 +9,7 @@
   <div class="breadCrumbHolder my-5">
     <div class="breadCrumb1 breadCrumb d-inline">
         <img src="/imgs/breadCrumb1.svg" class="img-responsive">
-        <a href="#" class="overlay-text centeredText">Deslogado</a>
+        <a href="#" class="overlay-text centeredText">Usuário</a>
     </div>
     <div class="breadCrumb1 breadCrumb d-inline">
         <img src="/imgs/breadCrumb3.svg" class="img-responsive" style="margin-left: -10px;">
