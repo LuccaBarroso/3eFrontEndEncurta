@@ -34,7 +34,6 @@ html,
 .card {
   max-width: 95%;
   border-radius: 10px;
-  overflow-x: auto;
 }
 
 .btn-primary {
@@ -198,6 +197,12 @@ a.centeredText:hover {
 table {
   border-collapse: separate;
   border-spacing: 10px 0;
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 table th {
@@ -321,4 +326,26 @@ input::-webkit-input-placeholder {
   bottom: 1em;
   padding: 5px 20px;
   left: 35%;
+}
+.filterCard {
+  background-color: rgba(255, 195, 22, 0.38);
+  border: none;
+}
+.filterCard .inputs {
+  flex-direction: row;
+}
+
+.filterCard .inputs div {
+  padding: 10px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .filterCard .inputs {
+    flex-direction: column;
+  }
+}
+
+.filterCard .inputs div input {
+  max-width: 500px;
 }
