@@ -322,18 +322,26 @@ input::-webkit-input-placeholder {
 }
 .solicitationHeader {
   background-color: #ffc316;
+  color: white;
   margin: 0;
-  width: 110%;
-  margin-left: -5%;
+  width: 100%;
   border-radius: 5px 5px 0 0;
-  padding: 5px 0;
+  padding: 10px 0;
+  position: relative;
+}
+.solicitationEnd {
+  background-color: #c0c0c0;
+}
+.solicitation div {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 1em;
 }
 .solicitation button {
-  position: absolute;
-  left: auto;
   bottom: 1em;
   padding: 5px 20px;
-  left: 35%;
+  margin: 0 auto;
 }
 .filterCard {
   background-color: rgba(255, 195, 22, 0.38);
