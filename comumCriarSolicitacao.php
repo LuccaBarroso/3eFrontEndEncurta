@@ -6,19 +6,10 @@
 <div class="container-fluid content">
 
   <!-- BreadCrumb -->
-  <div class="breadCrumbHolder my-5">
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb1.svg" class="img-responsive">
-        <a href="#" class="overlay-text centeredText">Deslogado</a>
-    </div>
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb3.svg" class="img-responsive" style="margin-left: -10px;">
-        <a href="#" class="overlay-text centeredText">Solicitações</a>
-    </div>
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb5.svg" class="img-responsive" style="margin-left: -10px;">
-        <a href="#" class="overlay-text centeredText">Criar Solicitação</a>
-    </div>
+  <div class="breadCrumbHolder my-4">
+    <a class="d-inline">Usuário</a>
+    <a class="d-inline"><i class="fas fa-angle-right"></i>Solicitações</a>
+    <a class="d-inline"><i class="fas fa-angle-right"></i>Criar Solicitação</a>
   </div>
 
   <!-- Content -->

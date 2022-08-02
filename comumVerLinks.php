@@ -6,15 +6,10 @@
 <div class="container-fluid content">
 
   <!-- BreadCrumb -->
-  <div class="breadCrumbHolder my-5">
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb1.svg" class="img-responsive">
-        <a href="#" class="overlay-text centeredText">Usuário</a>
-    </div>
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb2.svg" class="img-responsive" style="margin-left: -10px;">
-        <a href="#" class="overlay-text centeredText">Início</a>
-    </div>
+  <div class="breadCrumbHolder my-4">
+    <a class="d-inline">Usuário</a>
+    <a class="d-inline"><i class="fas fa-angle-right"></i>Início</a>
+    <a class="d-inline"><i class="fas fa-angle-right"></i>Editar Senha</a>
   </div>
 
 
@@ -22,6 +17,11 @@
   <div class="message d-flex alert alert-warning alert-dismissible fade show" role="alert">
     <i class="fas fa-info-circle mr-2"></i>
     <p class="my-auto ml-4">Usuário criado com sucesso!</p>
+    <button  type="button" data-bs-dismiss="alert"><i class="fas fa-times"></i></button>
+  </div>
+  <div class="message d-flex alert alert-warning alert-dismissible hide" id="linkSuccess" role="alert">
+    <i class="fas fa-info-circle mr-2"></i>
+    <p class="my-auto ml-4">Link copiado!</p>
     <button  type="button" data-bs-dismiss="alert"><i class="fas fa-times"></i></button>
   </div>
 
@@ -75,12 +75,12 @@
             <td>Link Exemplo</td>
             <td>Ecoleta</td>
             <td class="position-relative">
-              <p class="d-inline" style="white-space: nowrap;">
+              <p class="d-inline" style="white-space: nowrap;" id="exemplo1">
               https://3e.com.br/HASHSH/user 
               </p>
               <div  class="float-end smallBtnsTable">
                 <button href="#" class="btn-secondary-small mr-2" data-bs-toggle="modal" data-bs-target="#displayLink"><i class="bi bi-eye-fill"></i></button>
-                <button class="btn-secondary-small"><i class="fas fa-copy"></i></button>
+                <button class="btn-secondary-small" onclick="CopyInnerFromId('exemplo1');"><i class="fas fa-copy"></i></button>
               </div>
             </td>
             <td class="optionsBtns text-center">
@@ -97,7 +97,7 @@
               </p>
               <div  class="float-end smallBtnsTable">
                 <button href="#" class="btn-secondary-small mr-2" data-bs-toggle="modal" data-bs-target="#displayLink"><i class="bi bi-eye-fill"></i></button>
-                <button class="btn-secondary-small"><i class="fas fa-copy"></i></button>
+                <button class="btn-secondary-small"  onclick="CopyInnerFromId('exemplo2');"><i class="fas fa-copy"></i></button>
               </div>
             </td>
             <td class="optionsBtns text-center">

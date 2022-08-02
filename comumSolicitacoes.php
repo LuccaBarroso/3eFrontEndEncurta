@@ -6,15 +6,9 @@
 <div class="container-fluid content">
 
   <!-- BreadCrumb -->
-  <div class="breadCrumbHolder my-5">
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb1.svg" class="img-responsive">
-        <a href="#" class="overlay-text centeredText">Usuário</a>
-    </div>
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb3.svg" class="img-responsive" style="margin-left: -10px;">
-        <a href="#" class="overlay-text centeredText">Solicitações</a>
-    </div>
+  <div class="breadCrumbHolder my-4">
+    <a class="d-inline">Usuário</a>
+    <a class="d-inline"><i class="fas fa-angle-right"></i>Solicitações</a>
   </div>
 
   <!-- Content -->
@@ -37,7 +31,6 @@
           <button class="btn-primary"><i class="fas fa-plus m-auto pr-1"></i>Abrir</button>
         </div>
         <div class="solicitation shadow bg-body rounded-lg border-0 ">
-          <div class="card-header finished">Nome</div>
           <div class="card-body">
             <p class="text-center">Preciso que seja registra-do um novo usuário ...</p>
           </div>
@@ -46,6 +39,7 @@
     </div>
   </div>
 </div>
+
 <?php
   include("bottom.php");
 ?>

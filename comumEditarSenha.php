@@ -6,19 +6,10 @@
 <div class="container-fluid content">
 
   <!-- BreadCrumb -->
-  <div class="breadCrumbHolder my-5">
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb1.svg" class="img-responsive">
-        <a href="#" class="overlay-text centeredText">Usuário</a>
-    </div>
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb2.svg" class="img-responsive" style="margin-left: -10px;">
-        <a href="#" class="overlay-text centeredText">Perfil</a>
-    </div>
-    <div class="breadCrumb1 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb4.svg" class="img-responsive" style="margin-left: -10px;">
-        <a href="#" class="overlay-text centeredText">Mudar Senha</a>
-    </div>
+  <div class="breadCrumbHolder my-4">
+    <a class="d-inline">Usuário</a>
+    <a class="d-inline"><i class="fas fa-angle-right"></i>Perfil</a>
+    <a class="d-inline"><i class="fas fa-angle-right"></i>Editar Senha</a>
   </div>
 
   <!-- Content -->
