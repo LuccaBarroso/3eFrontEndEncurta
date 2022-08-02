@@ -114,7 +114,7 @@ a.btn-primary-lighter:hover {
   border: none;
   border-radius: 5px;
   color: white;
-  margin: 0;
+  margin: 1px;
   padding: 0;
   width: 25px;
   height: 25px;
@@ -410,4 +410,9 @@ input::-webkit-input-placeholder {
   position: absolute;
   top: 1em;
   right: 1em;
+}
+
+.modalHeader {
+  background-color: #f26506;
+  color: white;
 }

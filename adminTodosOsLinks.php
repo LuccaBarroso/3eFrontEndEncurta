@@ -25,6 +25,31 @@
     <button  type="button" data-bs-dismiss="alert"><i class="fas fa-times"></i></button>
   </div> -->
 
+  <!-- Modal mais detalhes links -->
+  <div class="modal fade" id="displayLink" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header modalHeader">
+          <h5 class="modal-title" id="exampleModalLabel">Nome do link</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Projeto:</p>
+          <p class="textInput">Projeto tal</p>
+          <p>Criador:</p>
+          <p class="textInput">Nome do criador</p>
+          <p>Link Original:</p>
+          <p class="textInput">www.something.com.br</p>
+          <p>Link Encurtado:</p>
+          <p class="textInput">www.3e.com.br/HASHSH/user</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Content -->
   <div class="card shadow p-3 m-1 pt-4 bg-body rounded-lg border-0 d-inline">
@@ -77,7 +102,7 @@
               https://3e.com.br/HASHSH/user 
               </p>
               <div  class="float-end smallBtnsTable">
-                <a href="#" class="btn-secondary-small"><i class="bi bi-eye-fill"></i></a>
+                <button href="#" class="btn-secondary-small mr-2" data-bs-toggle="modal" data-bs-target="#displayLink"><i class="bi bi-eye-fill"></i></button>
                 <button class="btn-secondary-small"><i class="fas fa-copy"></i></button>
               </div>
             </td>
@@ -92,10 +117,10 @@
             <td>Jorge</td>
             <td class="position-relative">
               <p class="d-inline" style="white-space: nowrap;">
-              https://3e.com.br/HASHSH/user 
+                https://3e.com.br/HASHSH/user 
               </p>
               <div  class="float-end smallBtnsTable">
-                <a href="#" class="btn-secondary-small"><i class="bi bi-eye-fill"></i></a>
+                <button href="#" class="btn-secondary-small" data-bs-toggle="modal" data-bs-target="#displayLink"><i class="bi bi-eye-fill"></i></button>
                 <button class="btn-secondary-small"><i class="fas fa-copy"></i></button>
               </div>
             </td>

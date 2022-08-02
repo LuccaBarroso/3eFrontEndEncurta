@@ -16,7 +16,7 @@
         <a href="#" class="overlay-text centeredText">Projetos</a>
     </div>
     <div class="breadCrumb2 breadCrumb d-inline">
-        <img src="/imgs/breadCrumb5.svg" class="img-responsive" style="margin-left: -1px;">
+        <img src="/imgs/breadCrumb4.svg" class="img-responsive" style="margin-left: -1px;">
         <a href="#" class="overlay-text centeredText">Novo Projeto</a>
     </div>
   </div>
