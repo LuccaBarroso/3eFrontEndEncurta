@@ -312,36 +312,40 @@ input::-webkit-input-placeholder {
 
 .solicitation {
   position: relative;
-  min-height: 300px;
-  max-width: 300px;
+  min-height: 400px;
+  max-width: 500px;
+  min-width: 300px;
   background-color: #f4f4f4 !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
-.solicitationHeader {
+.solicitation .card-header {
+  width: 100%;
   background-color: #ffc316;
   color: white;
-  margin: 0;
-  width: 100%;
-  border-radius: 5px 5px 0 0;
-  padding: 10px 0;
-  position: relative;
 }
-.solicitationEnd {
+
+.solicitation .card-header.finished {
   background-color: #c0c0c0;
 }
-.solicitation div {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  bottom: 1em;
-}
+
 .solicitation button {
+  position: absolute;
   bottom: 1em;
   padding: 5px 20px;
   margin: 0 auto;
+}
+.solicitationDisplay {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1180px) {
+  .solicitationDisplay {
+    flex-direction: column;
+  }
 }
 .filterCard {
   background-color: rgba(255, 195, 22, 0.38);

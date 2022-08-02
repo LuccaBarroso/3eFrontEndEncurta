@@ -22,28 +22,27 @@
     
     <div class="d-flex flex-column">
       <h4 class="text-center w-100 pb-5">Suas Solicitações</h4>
-       <form class="m-auto">
-
-       <div class="row justify-content-md-center gx-1">
-       <div class="solicitation text-center col-sm shadow p-3 mx-auto pt-4 bg-body rounded-lg border-0 d-inline">
-            <p>Preciso que seja registra-do um novo usuário ...</p>
-            <div>
-              <button class="btn-primary mx-auto"><i class="fas fa-plus m-auto pr-1"></i>Abrir</button>
-            </div>
+      <div class="solicitationDisplay m-auto">
+        <!-- <div class="text-center">Você ainda não fez nenhuma solicitação...</div> -->
+        <div class="solicitation shadow bg-body rounded-lg border-0 ">
+          <div class="card-body">
+            <p class="text-center">Preciso que seja registra-do um novo usuário ...</p>
+          </div>
+          <button class="btn-primary"><i class="fas fa-plus m-auto pr-1"></i>Abrir</button>
         </div>
-        <div class="solicitation text-center col-sm shadow p-3 mx-auto pt-4 bg-body rounded-lg border-0 d-inline">
-            <p>Preciso que seja registra-do um novo usuário ...</p>
-            <div>
-              <button class="btn-gray mx-auto">Finalizado</button>
-            </div>
+        <div class="solicitation shadow bg-body rounded-lg border-0 ">
+          <div class="card-body">
+            <p class="text-center">Preciso que seja registra-do um novo usuário ...</p>
+          </div>
+          <button class="btn-primary"><i class="fas fa-plus m-auto pr-1"></i>Abrir</button>
         </div>
-       </div>
-        
-        <div class="d-flex justify-content-center pt-5">
-            <a class="simpleLink text-decoration-underline" href="#">Estou com um problema muito sério, preciso falar com o admin!</a>
+        <div class="solicitation shadow bg-body rounded-lg border-0 ">
+          <div class="card-header finished">Nome</div>
+          <div class="card-body">
+            <p class="text-center">Preciso que seja registra-do um novo usuário ...</p>
+          </div>
+          <button class="btn-gray">Finalizado</button>
         </div>
-
-      </form>
     </div>
   </div>
 </div>
